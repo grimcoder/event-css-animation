@@ -1,0 +1,30 @@
+body {
+  font-family: sans-serif;
+}
+
+.label {
+  fill: #000;
+  position: relative;
+  transform: translateX(150px) translateY(120px) scaleY(-1);
+}
+
+#svg {
+  /* position: relative;
+  top: 700px; */
+  margin: 50px;
+  transform: scaleY(-1);
+  /* background: black; */
+  width: 90%;
+  height: 50%;
+}
+
+#srcl {
+  position: relative;
+  transform: translateX(150px) translateY(150px);
+}
+
+.line {
+  position: relative;
+  stroke: #000;
+  transform: translateX(150px) translateY(150px);
+}
